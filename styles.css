@@ -1,0 +1,63 @@
+body {
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+a:hover,
+a:visited {
+    color: black;
+}
+
+.post {
+    width: 500px;
+    background-color: white;
+}
+
+.post .post-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.post .post-head .head-left {
+    display: flex;
+    align-items: center;
+}
+
+.head-left div {
+    margin-left: 6px;
+}
+
+.head-left p {
+    margin: 0;
+    font-weight: 600;
+}
+.post .post-img {
+    height: 300px;
+}
+.post .post-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.post .icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.likes {
+    padding: 10px 15px;
+}
+
+.likes p {
+    line-height: 1.3rem;
+}
+
+span.liked {
+    font-weight: 600;
+}
